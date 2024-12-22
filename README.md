@@ -40,11 +40,15 @@ Ensure you have the following installed:
    ```
 
 2. **Enter your API token:**
-
+3. 
    When prompted, enter the **API token** you have been provided. The API token is required to fetch the eligibility data.
 
    ```plaintext
    🔐 Enter your API token: your_api_token_here
    ```
+  📍How To Get Tokens?
 
-3. The script will automatically check your **Season 1 eligibility** and display the result.
+1. Open Nodepay Dashboard
+2. Open DevTools (Inspect Element)
+3. Go to Application > Local Storage > https://app.nodepay.ai
+4. Copy Value at token's Key (eyxxx)
