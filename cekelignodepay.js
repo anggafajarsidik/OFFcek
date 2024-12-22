@@ -1,6 +1,9 @@
 const axios = require('axios');
 const readline = require('readline');
 
+// Clear the terminal screen
+console.clear();
+
 // Create a readline interface for user input
 const rl = readline.createInterface({
     input: process.stdin,
